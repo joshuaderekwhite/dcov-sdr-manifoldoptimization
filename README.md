@@ -10,5 +10,6 @@
 - labels: The labels for the reduced X data matrix
 
 ## How to Run
+- Requires manopt package for MATLAB/Octave to be loaded to local machine
 - Save all .m files to local repository
 - Run ssdr(X,Y,labels) to receive the reduced matrix
