@@ -1,0 +1,490 @@
+warning: function C:\Users\joshu\OneDrive\Documents\Course Work\UCF\Current Courses\STA7734\Assignments\Project\test.m shadows a core library function
+warning: function C:\Users\joshu\OneDrive\Documents\Course Work\UCF\Current Courses\STA7734\Assignments\Project\manopt-master\manopt\manifolds\ttfixedrank\TTeMPS_1.1\examples\example.m shadows a core library function
+warning: called from
+    C:\Users\joshu\.octaverc at line 2 column 3
+
+octave:1> [X_sdr, beta, labels_sdr] = ssdr(X.data,Y.data,labels);
+error: 'X' undefined near line 1, column 34
+octave:2> X = importdata('X.csv');
+octave:3> Y = importdata('Y.csv');
+octave:4> labels = ostrsplit(cell2mat(X.textdata),",");
+octave:5> 
+octave:5> [X_sdr, beta, labels_sdr] = ssdr(X.data,Y.data,labels);
+warning: matrix singular to machine precision, rcond = 4.76477e-20
+warning: called from
+    mmdcov at line 10 column 16
+    ssdr at line 16 column 33
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    conjugategradient at line 202 column 9
+    manoptsolve at line 52 column 30
+    StiefelOpt at line 80 column 40
+    mmdcov at line 14 column 40
+    ssdr at line 16 column 33
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    multiprod at line 51 column 11
+    stiefelcomplexfactory>projection at line 76 column 13
+    getGradient at line 115 column 22
+    getCostGrad at line 90 column 14
+    conjugategradient at line 206 column 14
+    manoptsolve at line 52 column 30
+    StiefelOpt at line 80 column 40
+    mmdcov at line 14 column 40
+    ssdr at line 16 column 33
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    multiprod at line 51 column 11
+    stiefelcomplexfactory>projection at line 76 column 13
+    getGradient at line 115 column 22
+    getCostGrad at line 90 column 14
+    conjugategradient at line 206 column 14
+    manoptsolve at line 52 column 30
+    StiefelOpt at line 80 column 40
+    mmdcov at line 14 column 40
+    ssdr at line 16 column 33
+
+ iter                  cost val     grad. norm
+    0   -4.6110177088913389e+01 3.43028502e+02
+    1   -7.8568634397733911e+02 6.01004385e+01
+    2   -8.5708528380136966e+02 1.06066912e+02
+    3   -2.3534388540494606e+03 1.31321625e+03
+    4   -2.3534388540494606e+03 1.31321625e+03
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 461.644208 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -3.3022156973684504e+00 7.53621032e+01
+    1   -2.6020194773874916e+01 4.65358782e+02
+    2   -2.6020194773874916e+01 4.65358782e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 429.251862 [s] (excludes statsfun)
+warning: matrix singular to machine precision, rcond = 4.60968e-20
+warning: called from
+    mmdcov at line 10 column 16
+    ssdr at line 16 column 33
+
+ iter                  cost val     grad. norm
+    0   -2.5272993248928408e+01 5.25776460e+02
+    1   -5.4573469715934584e+02 8.29398118e+01
+    2   -1.7545132386152538e+03 7.92045602e+02
+    3   -1.7545132386152538e+03 7.92045602e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 122.511852 [s] (excludes statsfun)
+warning: matrix singular to machine precision, rcond = 1.94777e-19
+warning: called from
+    mmdcov at line 21 column 10
+    ssdr at line 16 column 33
+
+ iter                  cost val     grad. norm
+    0   -3.5293773851258532e+00 6.00015377e+01
+    1   -6.8803755227524661e+00 2.62736682e+01
+    2   -8.7390170210269105e+00 5.91419023e+01
+    3   -9.6224047457750785e+00 6.50035084e+01
+    4   -1.9334452890269070e+01 1.94892285e+02
+    5   -7.6794463216803081e+01 1.82292181e+02
+    6   -7.6794463216803081e+01 1.82292181e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 464.368617 [s] (excludes statsfun)
+error: rank(-0.000255689): subscripts must be either integers 1 to (2^63)-1 or logicals (note: variable 'rank' shadows function)
+error: called from
+    ssdr at line 29 column 21
+octave:6> [X_sdr, beta, labels_sdr] = ssdr(X.data,Y.data,labels);
+warning: matrix singular to machine precision, rcond = 4.76477e-20
+warning: called from
+    mmdcov at line 10 column 16
+    ssdr at line 16 column 33
+
+ iter                  cost val     grad. norm
+    0   -4.3819664915950334e+01 3.30946096e+02
+    1   -3.8522074688408939e+03 7.03740808e+02
+    2   -3.8522074688408939e+03 7.03740808e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 405.394069 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -5.5588230834605001e+00 3.18149046e+01
+    1   -6.0926036532339900e+00 8.10480459e+01
+    2   -6.0926036532339900e+00 8.10480459e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 95.177643 [s] (excludes statsfun)
+warning: matrix singular to machine precision, rcond = 4.60968e-20
+warning: called from
+    mmdcov at line 10 column 16
+    ssdr at line 16 column 33
+
+ iter                  cost val     grad. norm
+    0   -1.8201148270892730e+01 2.29946000e+02
+    1   -4.0069898802460693e+02 2.14253103e+02
+    2   -4.9202894819047629e+02 1.21180844e+02
+    3   -5.4141213241990783e+02 7.92001641e+01
+    4   -1.1290991254989922e+03 6.24508939e+02
+    5   -1.1290991254989922e+03 6.24508939e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 530.645871 [s] (excludes statsfun)
+warning: matrix singular to machine precision, rcond = 1.93591e-19
+warning: called from
+    mmdcov at line 21 column 10
+    ssdr at line 16 column 33
+
+ iter                  cost val     grad. norm
+    0   -3.6051324115709242e+00 3.01538475e+02
+    1   -5.1324807805075386e+02 2.58805240e+04
+    2   -5.1324807805075386e+02 2.58805240e+04
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 85.809595 [s] (excludes statsfun)
+warning: matrix singular to machine precision, rcond = 3.27042e-19
+warning: called from
+    mmdcov at line 10 column 16
+    ssdr at line 16 column 33
+
+ iter                  cost val     grad. norm
+    0   -6.0564796189256320e+00 6.19361561e+01
+    1   -5.7732908643319604e+01 4.10686435e+01
+    2   -6.5397482981803989e+01 2.05856802e+01
+    3   -6.7981934211810596e+01 6.05758146e+01
+    4   -1.1605337276920743e+02 1.18178777e+02
+    5   -8.7326012986262094e+02 7.88418451e+02
+    6   -8.7326012986262094e+02 7.88418451e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 730.493805 [s] (excludes statsfun)
+warning: matrix singular to machine precision, rcond = 1.37445e-19
+warning: called from
+    mmdcov at line 21 column 10
+    ssdr at line 16 column 33
+
+warning: matrix singular to machine precision, rcond = 8.04785e-20
+warning: called from
+    mmdcov at line 10 column 16
+    ssdr at line 16 column 33
+
+ iter                  cost val     grad. norm
+    0   -2.2724012373947389e+01 2.97135261e+02
+    1   -6.1379503762582476e+02 1.09900532e+02
+    2   -7.5885352404534387e+02 3.69214919e+02
+    3   -7.5885352404534387e+02 3.69214919e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 135.351006 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -6.5038513801765356e+00 3.80890983e+01
+    1   -3.0279728439471711e+01 5.44824799e+02
+    2   -3.0279728439471711e+01 5.44824799e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 77.728653 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -3.7298804357156650e+00 7.20292994e+01
+    1   -4.8215961333368558e+00 6.34189928e+01
+    2   -1.0129150283924371e+01 2.54366034e+02
+    3   -1.0129150283924371e+01 2.54366034e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 229.084941 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -1.0467199448895896e+02 3.31378144e+03
+    1   -1.0467199448895896e+02 3.31378144e+03
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 365.730203 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -5.3774414215827804e+00 8.40726185e+01
+    1   -1.3864713649173385e+01 1.04687013e+03
+    2   -1.3864713649173385e+01 1.04687013e+03
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 505.723944 [s] (excludes statsfun)
+warning: matrix singular to machine precision, rcond = 1.56746e-19
+warning: called from
+    mmdcov at line 21 column 10
+    ssdr at line 16 column 33
+
+ iter                  cost val     grad. norm
+    0   -1.0221527649690632e+01 5.40994485e+01
+    1   -1.1496233009785360e+01 1.70089383e+02
+    2   -1.1496233009785360e+01 1.70089383e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 97.265484 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -5.6945780565681474e+00 3.81754670e+01
+    1   -1.0160864491107066e+01 3.26608710e+02
+    2   -2.0387816862762243e+01 1.91691135e+02
+    3   -2.0387816862762243e+01 1.91691135e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 665.594565 [s] (excludes statsfun)
+warning: matrix singular to machine precision, rcond = 1.319e-19
+warning: called from
+    mmdcov at line 21 column 10
+    ssdr at line 16 column 33
+
+ iter                  cost val     grad. norm
+    0   -7.8430411251432748e+00 6.74809091e+01
+    1   -7.8430411251432748e+00 6.74809091e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 23.454059 [s] (excludes statsfun)
+warning: matrix singular to machine precision, rcond = 3.33218e-19
+warning: called from
+    mmdcov at line 10 column 16
+    ssdr at line 16 column 33
+
+ iter                  cost val     grad. norm
+    0   -9.7408126037061038e+00 3.33910778e+02
+    1   -1.1510436571619381e+02 2.88615548e+01
+    2   -1.4620601232236291e+02 1.35536873e+01
+    3   -2.5089847620942382e+02 3.12905943e+02
+    4   -2.5089847620942382e+02 3.12905943e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 566.244415 [s] (excludes statsfun)
+warning: matrix singular to machine precision, rcond = 2.25311e-19
+warning: called from
+    mmdcov at line 21 column 10
+    ssdr at line 16 column 33
+
+ iter                  cost val     grad. norm
+    0   -3.8781129615015235e+00 4.31148138e+01
+    1   -8.8530835865168687e+00 2.13686449e+01
+    2   -1.2817028739211178e+01 1.46430937e+01
+    3   -2.0723427061683445e+01 2.77252778e+02
+    4   -6.4233244233996274e+01 1.77382996e+03
+    5   -6.4233244233996274e+01 1.77382996e+03
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 311.142087 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -8.0504525041697867e+00 5.42775387e+01
+    1   -8.0504525041697867e+00 5.42775387e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 52.945814 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -3.7444820253704485e+00 2.33658775e+00
+    1   -5.1925452414167559e+00 2.39827370e+01
+    2   -2.0820163078216588e+01 3.86261654e+01
+    3   -2.0898093825170847e+01 3.56446037e+01
+    4   -2.0898093825170847e+01 3.56446037e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 237.568660 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   +2.1521918645519911e-01 2.90568757e+02
+    1   -4.3540938335906052e+00 1.58542510e+02
+    2   -1.3498655816291635e+01 1.39730561e+02
+    3   -1.8370230885739844e+01 2.22442429e+02
+    4   -1.8370230885739844e+01 2.22442429e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 221.734504 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -7.5974541919115017e+00 6.18156225e+01
+    1   -7.5974541919115017e+00 6.18156225e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 46.754889 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -2.0389503568926202e+01 2.54703224e+02
+    1   -2.0389503568926202e+01 2.54703224e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 280.565941 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -1.1254584151499690e+01 9.83160943e+01
+    1   -2.4043000090695777e+01 1.04108143e+03
+    2   -2.4043000090695777e+01 1.04108143e+03
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 250.411222 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -1.0773259292681347e+01 1.44452029e+02
+    1   -1.0773259292681347e+01 1.44452029e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 243.651198 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -1.1633159975370827e+01 9.68845819e+01
+    1   -1.3616369687819152e+01 2.05142446e+02
+    2   -2.5046454438678552e+01 1.49434588e+02
+    3   -2.5046454438678552e+01 1.49434588e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 270.096087 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -1.3870166605583665e+02 2.37087835e+03
+    1   -1.3870166605583665e+02 2.37087835e+03
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 32.874706 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -9.4679434549125059e+00 5.10190175e+01
+    1   -1.2542112880729455e+01 3.91824955e+02
+    2   -4.5204626009980963e+01 9.46515486e+01
+    3   -4.5204626009980963e+01 9.46515486e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 276.478566 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   +7.6637202329785801e+00 6.31238005e+02
+    1   -3.6172172695922509e+00 3.06612412e+01
+    2   -7.6844125098994551e+00 9.63357388e+01
+    3   -7.6844125098994551e+00 9.63357388e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 78.401753 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -6.0912969011997102e+00 4.59094539e+01
+    1   -6.0912969011997102e+00 4.59094539e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 27.922215 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -9.3936403170011360e+00 7.75530279e+01
+    1   -1.4535115406449641e+01 1.63045515e+02
+    2   -1.3028024993296060e+02 1.01560470e+03
+    3   -1.3028024993296060e+02 1.01560470e+03
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 418.679012 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   +5.6294912102839323e+00 3.45287577e+02
+    1   -7.4954968974581622e+00 2.37158902e+01
+    2   -1.3422275485010488e+01 1.10110844e+02
+    3   -3.7493198526029886e+01 4.25584287e+02
+    4   -3.7493198526029886e+01 4.25584287e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 254.508939 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -5.3046190054305322e+00 3.75953612e+01
+    1   -6.4622130327432057e+00 3.92609180e+01
+    2   -9.8299177037798717e+00 5.48098881e+01
+    3   -6.4638600648255746e+01 2.78212129e+03
+    4   -6.4638600648255746e+01 2.78212129e+03
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 309.568336 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -9.0392694391717470e+00 1.13197759e+02
+    1   -7.1242071831953012e+01 1.82393079e+03
+    2   -7.1242071831953012e+01 1.82393079e+03
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 220.659675 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -9.8816281158320756e+00 6.26637262e+01
+    1   -9.8816281158320756e+00 6.26637262e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 28.569400 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -5.9967845792274277e+00 4.24948381e+01
+    1   -9.1864603856955469e+00 1.40106038e+02
+    2   -9.9578312685461228e+00 3.69122663e+01
+    3   -9.9578312685461228e+00 3.69122663e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 142.660190 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -7.2261580117325028e+00 7.89623159e+01
+    1   -7.5608317415478972e+00 8.80450460e+01
+    2   -1.5583187219252773e+01 2.34460830e+02
+    3   -1.5583187219252773e+01 2.34460830e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 190.809025 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -6.7017681549964019e+00 3.72977947e+01
+    1   -2.9071043247032478e+01 4.79746990e+01
+    2   -2.8690481447790825e+02 8.30967233e+03
+    3   -2.8690481447790825e+02 8.30967233e+03
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 123.558949 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -6.2179183739664481e+00 6.43962366e+01
+    1   -1.8890718515908471e+01 3.09765268e+02
+    2   -1.8890718515908471e+01 3.09765268e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 47.365877 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -1.5871840615348134e+00 1.53694416e+02
+    1   -5.5354127778916018e+00 3.75985233e+01
+    2   -9.9245923825593163e+00 1.71046999e+02
+    3   -1.4206212346321623e+01 1.03309742e+02
+    4   -1.4206212346321623e+01 1.03309742e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 183.619321 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -7.6199732687865236e+00 3.34335519e+01
+    1   -8.9286792678491373e+00 5.00419512e+01
+    2   -8.9286792678491373e+00 5.00419512e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 70.494105 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -9.5362185126640249e+00 5.07092944e+01
+    1   -9.5362185126640249e+00 5.07092944e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 25.169800 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -4.7133595788347531e+00 5.38106365e+01
+    1   -2.6772816007783440e+01 2.17592728e+02
+    2   -2.6772816007783440e+01 2.17592728e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 41.971056 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -6.6511211200039634e+02 9.55520293e+03
+    1   -6.6511211200039634e+02 9.55520293e+03
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 166.529405 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -5.7262711807913229e+00 3.71862948e+01
+    1   -7.9877338786708751e+00 2.11512422e+02
+    2   -2.5533664072432465e+01 6.18136551e+02
+    3   -2.5533664072432465e+01 6.18136551e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 302.100776 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -7.8014497685193156e+00 5.63823031e+01
+    1   -1.0127222848405133e+01 4.66494431e+01
+    2   -2.8540921959005665e+01 2.47684119e+02
+    3   -2.8540921959005665e+01 2.47684119e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 80.876594 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -7.2184789532592006e+00 3.00324117e+01
+    1   -8.6932391328764940e+00 3.23057956e+01
+    2   -1.3171234564952481e+01 4.68875848e+01
+    3   -1.3171234564952481e+01 4.68875848e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 85.031404 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -1.3209646468628598e+01 1.07998346e+02
+    1   -2.3464747139387676e+01 3.89421474e+02
+    2   -2.3464747139387676e+01 3.89421474e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 269.192245 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -1.0989556895910070e+01 5.21079857e+01
+    1   -3.5627422942054196e+01 2.46167056e+02
+    2   -3.5627422942054196e+01 2.46167056e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 214.087195 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -4.1876101334264817e+00 2.46984413e+02
+    1   -1.1525650692657269e+01 1.39513275e+02
+    2   -1.6653856670838287e+01 1.27752213e+02
+    3   -1.6653856670838287e+01 1.27752213e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 115.835554 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -5.7788999157080791e+00 7.87150697e+01
+    1   -5.7788999157080791e+00 7.87150697e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 25.538987 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -2.3884019345289154e+01 2.04865407e+02
+    1   -2.3884019345289154e+01 2.04865407e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 24.126968 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -9.7755177632343901e+00 7.34968563e+01
+    1   -7.4665693622389185e+01 1.23569607e+03
+    2   -7.4665693622389185e+01 1.23569607e+03
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 185.117021 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -1.0169289561898474e+01 4.12822554e+01
+    1   -1.1498055990367771e+01 5.55852695e+01
+    2   -1.1498055990367771e+01 5.55852695e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 46.962125 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -2.2188180026504646e+01 3.01679769e+02
+    1   -2.2188180026504646e+01 3.01679769e+02
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 22.792333 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -6.9324385300919502e+00 1.58518474e+01
+    1   -1.8448611077950911e+01 8.86827430e+01
+    2   -7.2888268047894087e+01 1.24105813e+03
+    3   -7.2888268047894087e+01 1.24105813e+03
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 283.539120 [s] (excludes statsfun)
+ iter                  cost val     grad. norm
+    0   -1.0862368592720543e+01 6.89862463e+01
+    1   -1.0862368592720543e+01 6.89862463e+01
+Last stepsize smaller than minimum allowed; options.minstepsize = 1e-10.
+Total time is 25.643141 [s] (excludes statsfun)
