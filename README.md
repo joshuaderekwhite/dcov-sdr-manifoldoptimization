@@ -13,3 +13,10 @@
 - Requires manopt package for MATLAB/Octave to be loaded to local machine
 - Save all .m files to local repository
 - Run ssdr(X,Y,labels) to receive the reduced matrix
+
+## Functions
+- ssdr: Iterates through each section of the dataset and runs a dimension reduction technique until the dataset's rank is then equal to the number of predictors.
+- mmdcov: Implements a variant of the MMDCOV method in which the Newton's method is redacted.
+- StiefelOptim: Optimizes the mmdcov on the stiefel manifold leveraging the cost functions as outlined in the MMDCOV method.
+
+See paper in this repo for the references to the referred methods.
